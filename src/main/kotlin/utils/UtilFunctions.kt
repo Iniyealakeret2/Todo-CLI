@@ -27,7 +27,7 @@ fun loadApplicationConfiguration(): ApplicationConfigurations{
     val commandActions = cmdOptionsAction + listOf(
         CONFIGURATION
     )
-    return ApplicationConfigurations(properties.getProperty("version"),commandActions, cmdOptionsAction)
+    return ApplicationConfigurations(commandActions, cmdOptionsAction)
 }
 
 fun createFilePathIfDoesNotExist(filePath: String): Path{
