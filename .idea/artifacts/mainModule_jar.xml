@@ -5,7 +5,7 @@
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" />
       </element>
-      <element id="module-output" name="mainModule" />
+      <element id="module-output" name="todoApp" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/maven/maven-settings-builder/3.1.0/maven-settings-builder-3.1.0.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-java/1.1.1/plexus-java-1.1.1.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar" path-in-jar="/" />
