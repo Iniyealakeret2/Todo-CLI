@@ -4,7 +4,7 @@ import configuration.loadApplicationConfiguration
 import org.apache.commons.cli.Option
 
 class VersionCmdOptions: AbstractCmdOptions() {
-    private val option = Option("v", "version", false, "print the application version")
+    private val option = Option("v", "version", false, "Display application version")
 
     override fun getOption(): Option = option
 
