@@ -1,6 +1,7 @@
 package util
 
 import cmd.*
+import cmd.DeletePathCmdOptions
 
 var DEBUG_ENABLED = false
 const val SEPARATOR = ";"
@@ -12,3 +13,5 @@ val CONFIGURATION = CmdOptionsConfiguration()
 val LIST_ALL_TASK = ListAllTaskCmdOptions()
 val ADD_TASK = AddTaskCmdOptions()
 val DONE = CompletedTaskCmdOptions()
+val REMOVE_TASK = DeletePathCmdOptions()
+val UNMARKED_TASK = UnmarkedTaskCmd()

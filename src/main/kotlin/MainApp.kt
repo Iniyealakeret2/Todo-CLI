@@ -5,7 +5,6 @@ import util.*
 import kotlin.system.exitProcess
 
 
-
 fun main(args: Array<String>) {
     val applicationConfiguration = loadApplicationConfiguration()
 
@@ -31,4 +30,6 @@ fun main(args: Array<String>) {
     val cmd = applicationConfiguration.actionCommands.find { it.isEnabled(line) }
     cmd?.invoke(path, cmd.getCmdOptionValue(line)?: "")
 }
+
+
 

@@ -19,12 +19,14 @@ fun loadApplicationConfiguration(): ApplicationConfiguration {
     val actionCmd: List<ActionCmdOptions> = listOf(
             ADD_TASK,
             LIST_ALL_TASK,
-            DONE
+            DONE,
+            UNMARKED_TASK,
+            REMOVE_TASK
     )
     val commands = actionCmd + listOf(
             CONFIGURATION,
             HELP,
-            APP_VERSION
+            APP_VERSION,
     )
     return ApplicationConfiguration(properties.getProperty("version"), commands, actionCmd)
 }
