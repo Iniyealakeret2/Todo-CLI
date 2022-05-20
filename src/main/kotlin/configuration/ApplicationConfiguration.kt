@@ -21,7 +21,8 @@ fun loadApplicationConfiguration(): ApplicationConfiguration {
             LIST_ALL_TASK,
             DONE,
             UNMARKED_TASK,
-            REMOVE_TASK
+            DELETE_PATH,
+            REMOVE_A_TASK
     )
     val commands = actionCmd + listOf(
             CONFIGURATION,
